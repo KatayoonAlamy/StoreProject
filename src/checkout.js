@@ -13,6 +13,10 @@ export const checkout = function () {
             <img src="/external/imges/top-more.png" alt="">
         </div>
 
+        <div id="toast" class="zoomInDown fixed top-10 right-28 bg-green-600 text-white p-4 rounded-lg hidden z-50">
+          <p>Item Add successfully!</p>
+        </div>
+
         <section class="flex flex-col gap-4 mt-20 px-6 py-2">
         <h1 class="font-bold text-xl py-2">Shipping Address</h1>
         <div class="bg-white flex items-center justify-around py-4 px-3 rounded-xl">
@@ -50,7 +54,7 @@ export const checkout = function () {
         <h1 class="font-bold text-xl py-2">Promo Code</h1>
         <div class="flex gap-3 items-center justify-around rounded-xl">
           <input class="py-4 px-3 w-80 rounded-lg bg-slate-200" type="text" placeholder="Enter Promo Code">
-          <button class="flex items-center justify-center bg-black text-2xl text-white w-12 h-12 rounded-full" id="promo">+</button>
+          <button  id="promo" class="flex items-center justify-center bg-black text-2xl text-white w-12 h-12 rounded-full" id="promo">+</button>
         </div>
 
         <div class=" h-48 bg-white px-4 flex gap-4 flex-col justify-center items-center">
@@ -79,6 +83,7 @@ export const checkout = function () {
 
     </div>
     `;
+
   root.querySelector("#content").innerHTML = "";
   axios
     .get(`${BaseUrl}/cart`)
