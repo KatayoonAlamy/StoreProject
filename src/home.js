@@ -87,7 +87,7 @@ export const home = function (searchInput) {
         </div>
         
         <div class="flex flex-nowrap overflow-x-auto gap-4 py-5">
-          <button class="w-fit py-1 px-5 bg-gray-600 rounded-full border-2 border-gray-700 text-white text-xl font-semibold">All</button>
+          <button class="w-fit py-1 px-5 bg-gray-700 rounded-full border-2 border-gray-700 text-white text-xl font-semibold">All</button>
           <button class="w-fit py-1 px-5 rounded-full border-2 border-gray-600 text-xl font-semibold id="fnike">Nike</button>
           <button class="w-fit py-1 px-5 rounded-full border-2 border-gray-600 text-xl font-semibold">Adidas</button>
           <button class="w-fit py-1 px-5 rounded-full border-2 border-gray-600 text-xl font-semibold">Puma</button>
