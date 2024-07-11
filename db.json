@@ -481,6 +481,96 @@
       "sizes": [41, 42, 43],
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ipsam perferendis quasi consectetur totam reprehenderit!",
       "imgUrl": "/external/imges/reebok/6.jpg"
+    },
+    {
+      "id": "31",
+      "name": "Asics",
+      "brand": "asics",
+      "price": 170,
+      "rate": 3.9,
+      "colors": {
+        "blue": "#27aec7",
+        "green": "#268801",
+        "red": "#c72800"
+      },
+      "sizes": [41, 42, 43],
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ipsam perferendis quasi consectetur totam reprehenderit!",
+      "imgUrl": "/external/imges/reebok/1.png"
+    },
+    {
+      "id": "32",
+      "name": "asics",
+      "brand": "asics",
+      "price": 160,
+      "rate": 4.1,
+      "colors": {
+        "blue": "#27aec7",
+        "green": "#268801",
+        "red": "#c72800"
+      },
+      "sizes": [41, 42, 43],
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ipsam perferendis quasi consectetur totam reprehenderit!",
+      "imgUrl": "/external/imges/reebok/2.jpg"
+    },
+    {
+      "id": "33",
+      "name": "asics",
+      "brand": "asics",
+      "price": 170,
+      "rate": 3.8,
+      "colors": {
+        "blue": "#27aec7",
+        "green": "#268801",
+        "red": "#c72800"
+      },
+      "sizes": [41, 42, 43],
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ipsam perferendis quasi consectetur totam reprehenderit!",
+      "imgUrl": "/external/imges/reebok/3.jpg"
+    },
+    {
+      "id": "34",
+      "name": "asics",
+      "brand": "asics",
+      "price": 130,
+      "rate": 3.6,
+      "colors": {
+        "blue": "#27aec7",
+        "green": "#268801",
+        "red": "#c72800"
+      },
+      "sizes": [41, 42, 43],
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ipsam perferendis quasi consectetur totam reprehenderit!",
+      "imgUrl": "/external/imges/reebok/4.png"
+    },
+    {
+      "id": "35",
+      "name": "asics",
+      "brand": "asics",
+      "price": 130,
+      "rate": 3.9,
+      "colors": {
+        "blue": "#27aec7",
+        "green": "#268801",
+        "red": "#c72800"
+      },
+      "sizes": [41, 42, 43],
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ipsam perferendis quasi consectetur totam reprehenderit!",
+      "imgUrl": "/external/imges/reebok/5.jpg"
+    },
+    {
+      "id": "36",
+      "name": "asics",
+      "brand": "asics",
+      "price": 115,
+      "rate": 4.4,
+      "colors": {
+        "blue": "#27aec7",
+        "green": "#268801",
+        "red": "#c72800"
+      },
+      "sizes": [41, 42, 43],
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ipsam perferendis quasi consectetur totam reprehenderit!",
+      "imgUrl": "/external/imges/reebok/6.jpg"
     }
   ],
   "cart": [
@@ -500,11 +590,11 @@
       "imgUrl": "/external/imges/reebok/4.png"
     },
     {
-      "id": "24",
-      "name": "NewBalance",
-      "brand": "newbalance",
-      "price": 190,
-      "rate": 4.5,
+      "id": "26",
+      "name": "Reebok Classic",
+      "brand": "reebok",
+      "price": 160,
+      "rate": 4.1,
       "colors": {
         "blue": "#27aec7",
         "green": "#268801",
@@ -512,7 +602,7 @@
       },
       "sizes": [41, 42, 43],
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ipsam perferendis quasi consectetur totam reprehenderit!",
-      "imgUrl": "/external/imges/newba/6.jpg"
+      "imgUrl": "/external/imges/reebok/2.jpg"
     },
     {
       "id": "1",
@@ -528,66 +618,6 @@
       "sizes": [41, 42, 43],
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ipsam perferendis quasi consectetur totam reprehenderit!",
       "imgUrl": "/external/imges/adidas/1.png"
-    },
-    {
-      "id": "13",
-      "name": "Puma California",
-      "brand": "puma",
-      "price": 100,
-      "rate": 4.1,
-      "colors": {
-        "blue": "#27aec7",
-        "green": "#268801",
-        "red": "#c72800"
-      },
-      "sizes": [41, 42, 43],
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ipsam perferendis quasi consectetur totam reprehenderit!",
-      "imgUrl": "/external/imges/puma/1.jpg"
-    },
-    {
-      "id": "30",
-      "name": "Reebok Nylon",
-      "brand": "reebok",
-      "price": 115,
-      "rate": 4.4,
-      "colors": {
-        "blue": "#27aec7",
-        "green": "#268801",
-        "red": "#c72800"
-      },
-      "sizes": [41, 42, 43],
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ipsam perferendis quasi consectetur totam reprehenderit!",
-      "imgUrl": "/external/imges/reebok/6.jpg"
-    },
-    {
-      "id": "23",
-      "name": "NewBalance 763",
-      "brand": "newbalance",
-      "price": 125,
-      "rate": 3.9,
-      "colors": {
-        "blue": "#27aec7",
-        "green": "#268801",
-        "red": "#c72800"
-      },
-      "sizes": [41, 42, 43],
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ipsam perferendis quasi consectetur totam reprehenderit!",
-      "imgUrl": "/external/imges/newba/5.jpg"
-    },
-    {
-      "id": "10",
-      "name": "Nike Train",
-      "brand": "nike",
-      "price": 140,
-      "rate": 3.9,
-      "colors": {
-        "blue": "#27aec7",
-        "green": "#268801",
-        "red": "#c72800"
-      },
-      "sizes": [41, 42, 43],
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ipsam perferendis quasi consectetur totam reprehenderit!",
-      "imgUrl": "/external/imges/nike/shoe4.png"
     }
   ],
   "mostPopular": [
