@@ -101,7 +101,7 @@ export const cart = function () {
           <div class="flex gap-8 items-center">
             <p class="text-xl font-bold text-black" id="totalPrice">$${item.price}.00</p>
             <div class="flex justify-evenly bg-gray-100 rounded-full w-28 items-center">
-              <button class="text-2xl mb-2" id="minus">-</button><button id="count">1</button><button class="text-2xl mb-2" id="plus">+</button>
+              <button class="text-2xl mb-2" id="minus">-</button><button class="count">1</button><button class="text-2xl mb-2 plus" id="">+</button>
             </div>
           </div>
         </div>
@@ -113,13 +113,12 @@ export const cart = function () {
         const deleteModal = document.getElementById("deleteModal");
         const confirmButton = document.getElementById("confirmDeleteButton");
         const cancelButton = document.getElementById("cancelDeleteButton");
-        const count = root.querySelector("#count");
-        const plus = root.querySelector("#plus");
+        const count = root.querySelector(".count");
+        const plus = root.querySelectorAll(".plus");
         const minus = root.querySelector("#minus");
         const totalPrice = root.querySelector("#totalPrice");
         const bin = root.querySelector("#bin");
         let total = item.price;
-        let number = 1;
 
         bin.addEventListener("click", (e) => {
           deleteModal.showModal();
@@ -145,11 +144,17 @@ export const cart = function () {
             totalPrice.innerText = `$${total}.00`;
           }
         });
-        plus.addEventListener("click", () => {
-          number += 1;
-          total = item.price * number;
-          count.innerText = number;
-          totalPrice.innerText = `$${total}.00`;
+
+        plus.forEach((item) => {
+          let number = 1;
+
+          item.addEventListener("click", (e) => {
+            number += 1;
+            total = item.price * number;
+            // count.innerText = number;
+            e.target.previousElementSibling.innerText = number;
+            totalPrice.innerText = `$${total}.00`;
+          });
         });
 
         root.querySelector("#prev").addEventListener("click", () => {
