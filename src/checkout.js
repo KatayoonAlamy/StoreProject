@@ -46,31 +46,36 @@ export const checkout = function () {
 
       <button class="mt-4 mx-6 w-96 h-[1px] bg-gray-300"></button>
 
-      <section>
-        <h1>Promo Code</h1>
-        <div class="flex gap-3">
-          <input type="text" placeholder="Enter Promo Code">
-          <button id="promo">+</button>
+      <section class="flex justify-center flex-col gap-4 px-6 py-2">
+        <h1 class="font-bold text-xl py-2">Promo Code</h1>
+        <div class="flex gap-3 items-center justify-around rounded-xl">
+          <input class="py-4 px-3 w-80 rounded-lg bg-slate-200" type="text" placeholder="Enter Promo Code">
+          <button class="flex items-center justify-center bg-black text-2xl text-white w-12 h-12 rounded-full" id="promo">+</button>
         </div>
 
-        <div class="flex flex-col">
-          <div>
+        <div class=" h-48 bg-white px-4 flex gap-4 flex-col justify-center items-center">
+          <div class="flex gap-56 text-xl font-semibold text-gray-500">
             <span>Amount</span>
-            <span>$</span>
+            <span>$584.00</span>
           </div>
-          <div>
-            <span>Amount</span>
-            <span>$</span>
+          <div class="flex gap-60 text-xl font-semibold text-gray-500">
+            <span>Shipping</span>
+            <span>30.00</span>
           </div>
 
           <button class="mt-4 mx-6 w-96 h-[1px] bg-gray-300"></button>
 
-          <div>
-            <span>Amount</span>
-            <span>$</span>
+          <div class="flex gap-64 text-xl font-semibold text-gray-500">
+            <span>Total</span>
+            <span>614.00</span>
           </div>
         </div>
       </section>
+
+      <a data-navigo href="/checkout" class="ml-16 mt-6 py-4  flex gap-4 justify-center w-80 rounded-full items-center bg-black font-semibold text-white">
+                <p>Countinue To Payment</p>
+                <img src="/external/imges/gocheckout.png" alt="">
+            </a>
 
     </div>
     `;

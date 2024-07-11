@@ -18,13 +18,8 @@ export const home = function (searchInput) {
   if (searchInput.params !== null || searchInput.data !== null) {
     // alert("search mode");
     query = `${BaseUrl}/products?name=${searchInput}`;
-  } else if (
-    (searchInput.params !== null || searchInput.data !== null) &&
-    fillter.params !== null
-  ) {
-    alert("fillter mode!");
   } else {
-    query = `${BaseUrl}/products`;
+    query = `${BaseUrl}/mostPopular`;
   }
 
   root.innerHTML = `
@@ -34,7 +29,9 @@ export const home = function (searchInput) {
           <figure class="w-14"><img src="./external/imges/user.png" alt="user"></figure>
           <div class="flex flex-col items-start">
             <span class="font-semibold text-xl text-gray-500">Good Morning 👋</span>
-            <span class="font-bold text-xl">Katayoon Alamy</span>
+            <span class="font-bold text-xl">${localStorage.getItem(
+              "email"
+            )}</span>
           </div>
         </div>
         <figure><img src="./external/imges/header.png" alt="user"></figure>
@@ -90,7 +87,7 @@ export const home = function (searchInput) {
         </div>
         
         <div class="flex flex-nowrap overflow-x-auto gap-4 py-5">
-          <button class="w-fit py-1 px-5 rounded-full border-2 border-gray-600 text-xl font-semibold">All</button>
+          <button class="w-fit py-1 px-5 bg-gray-600 rounded-full border-2 border-gray-700 text-white text-xl font-semibold">All</button>
           <button class="w-fit py-1 px-5 rounded-full border-2 border-gray-600 text-xl font-semibold id="fnike">Nike</button>
           <button class="w-fit py-1 px-5 rounded-full border-2 border-gray-600 text-xl font-semibold">Adidas</button>
           <button class="w-fit py-1 px-5 rounded-full border-2 border-gray-600 text-xl font-semibold">Puma</button>
