@@ -53,21 +53,21 @@ export const checkout = function () {
           <button class="flex items-center justify-center bg-black text-2xl text-white w-12 h-12 rounded-full" id="promo">+</button>
         </div>
 
-        <div class=" h-48 bg-white flex flex-col justify-center items-center">
-          <div class="flex justify-between">
+        <div class=" h-48 bg-white px-4 flex gap-4 flex-col justify-center items-center">
+          <div class="flex gap-56 text-xl font-semibold text-gray-500">
             <span>Amount</span>
-            <span>$</span>
+            <span>$584.00</span>
           </div>
-          <div class="flex justify-evenly">
-            <span>Amount</span>
-            <span>$</span>
+          <div class="flex gap-60 text-xl font-semibold text-gray-500">
+            <span>Shipping</span>
+            <span>30.00</span>
           </div>
 
           <button class="mt-4 mx-6 w-96 h-[1px] bg-gray-300"></button>
 
-          <div class="flex justify-between">
-            <span>Amount</span>
-            <span>$</span>
+          <div class="flex gap-64 text-xl font-semibold text-gray-500">
+            <span>Total</span>
+            <span>614.00</span>
           </div>
         </div>
       </section>
